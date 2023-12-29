@@ -26,3 +26,4 @@ let b = 12
             // we can not change its value after decalaration
             // const does not add itself to the window object
 
+const c = 12
