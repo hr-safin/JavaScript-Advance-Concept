@@ -8,8 +8,21 @@
 const newArray = [1,2,3,4,5,6,7]
 
 newArray.forEach((elem) => {
-    console.log(elem, "safin")
+    // console.log(elem, "safin")
 })
+
+// for in loop
+
+const myObj = {
+    name : "Hasibur rahman safin",
+    age : "23",
+    dream : "to become a maching learning engineer",
+    country : "USA"
+}
+
+for(let key in myObj){
+    console.log(key, ":", myObj[key])
+}
 
 
 
