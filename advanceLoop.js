@@ -11,7 +11,7 @@ newArray.forEach((elem) => {
     // console.log(elem, "safin")
 })
 
-// for in loop
+// for in loop for object
 
 const myObj = {
     name : "Hasibur rahman safin",
@@ -21,7 +21,17 @@ const myObj = {
 }
 
 for(let key in myObj){
-    console.log(key, ":", myObj[key])
+   // console.log(key, ":", myObj[key])
+}
+
+
+
+// forof loop for array
+
+const myArray = ["hasibur"]
+
+for(let str of myArray){
+    console.log(str.split(""))
 }
 
 
